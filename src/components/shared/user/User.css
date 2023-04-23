@@ -1,0 +1,71 @@
+.user {
+    width: 310px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    position: relative;
+    margin: 40px 0;
+    padding: 30px;
+    padding-top: 40px;
+}
+
+.user .user-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.user .user-info+h5 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.user .avatar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.user .action-bar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h5{
+    padding-top: 20px;
+}
+
+.user .edit-user,
+.user .delete-user {
+    background-color: rgb(168, 19, 19);
+    color: white;
+    padding: 8px 16px;
+    border: solid 2px rgb(245, 2, 2);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.user .edit-user {
+    background-color: rgb(233, 82, 6);
+    border-color: rgb(255, 106, 6);
+}
+
+.user .hide {
+    display: none;
+}
+
+.edit-bar {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edit-bar input {
+    max-width: 200px;
+    margin: auto;
+}

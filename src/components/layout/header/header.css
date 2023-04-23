@@ -1,0 +1,51 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+header{
+    border-bottom: solid 1px gray;
+    background-color: rgb(236, 236, 236);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000;
+    transition: .2s all;
+}
+
+a:hover {
+    background: #000;
+    color: #fff;
+}
+
+@media only screen and (max-width: 510px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+}
